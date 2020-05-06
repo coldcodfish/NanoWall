@@ -1,0 +1,11 @@
+wall-first-point:
+  world: world
+  x: -129.0
+  y: 70.0
+  z: 256.0
+wall-second-point:
+  world: world
+  x: -143.0
+  y: 74.0
+  z: 256.0
+member-list: []

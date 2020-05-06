@@ -1,0 +1,23 @@
+name: NanoWall
+version: 1.1
+api-version: 1.15
+description: NanoWall
+author: kubotan
+main: space.gorogoro.nanowall.NanoWall
+
+commands:
+  nanowall:
+    description: NanoWall.
+    usage: |
+      Use /help <command> [subcommand] for more information
+      /<command> reload - Reload config.
+      /<command> delmember - Delete member.
+      /<command> addmember - Add member.
+  nanowall reload:
+    description:  Reload config.
+  nanowall delmember:
+    description:  Delete member.
+  nanowall addmember:
+    description:  Add member.
+  nanowall listmember:
+    description:  List member.
