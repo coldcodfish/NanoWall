@@ -207,7 +207,7 @@ public class NanoWall extends JavaPlugin implements Listener {
         Block b = loc.getBlock();
         BlockData bd = b.getBlockData();
         Material m = b.getType();
-        if(!b.getType().equals(Material.AIR)) {
+        if(b.getType().equals(Material.GLASS)) {
           b.setType(Material.AIR);
           new NanoWallTask().setOriginal(m, b, bd).runTaskLater(this, 2 * 20L);
         }
